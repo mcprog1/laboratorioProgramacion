@@ -4,5 +4,5 @@
 
 int main()
 {
-    std::cout << "Hello World!\n aa";
+    std::cout << "Hello World!\n aa ";
 }
