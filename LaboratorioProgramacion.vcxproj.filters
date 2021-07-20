@@ -22,6 +22,9 @@
     <Filter Include="Archivos de encabezado\Colecciones">
       <UniqueIdentifier>{a2a25d85-ce82-4c48-996a-c2feb902e5eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\DataType">
+      <UniqueIdentifier>{4cc1f109-8f8a-496e-a930-7cb67cd132fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -124,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="Clase.h">
       <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
