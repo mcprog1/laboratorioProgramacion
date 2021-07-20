@@ -12,7 +12,11 @@ private:
 	TimeStamp inicioClase;
 	TimeStamp finClase;
 public:
-	
+	//constructors
+	Clase();
+	Clase(int, TipoClase, string, TimeStamp, TimeStamp);
+	~Clase();
+
 	//setters
 	void setIdClase(int);
 	void setTipoClase(TipoClase);
@@ -33,7 +37,9 @@ private:
 	int cantidadAsistentes;
 	
 public:
-
+	Teorico();
+	Teorico(int, TipoClase, string, TimeStamp, TimeStamp, int);
+	~Teorico();
 	//setters
 	void setCantidadAsistentes();
 
@@ -45,13 +51,22 @@ class Practico :public Clase {
 private:
 
 public:
-
+	Practico();
+	Practico(int, TipoClase, string, TimeStamp, TimeStamp);
+	~Practico();
 };
 
 class Monitoreo :public Clase {
 private:
-	IDictionary* estudiantesHabilitados();
-
+	IDictionary* estudiantesHabilitados;
 public:
-	
+	Monitoreo();
+	Monitoreo(int, TipoClase, string, TimeStamp, IDictionary&);
+	~Monitoreo();
+
+	//setters
+	void setEsdudianteHabilitado();
+
+	//getters
+	IDictionary* getEstudianteHabilitado();
 };
