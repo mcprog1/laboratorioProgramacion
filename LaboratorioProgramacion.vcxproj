@@ -172,6 +172,7 @@
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h" />
+    <ClInclude Include="Clase.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
