@@ -26,5 +26,10 @@ public:
 
 	//Constructor
 	Asignatura();
-	Asignatura();
+	Asignatura(int,string,TipoClase);
+
+	void vincularDocente();
+
+	void vincularEstudiante();
+
 };
