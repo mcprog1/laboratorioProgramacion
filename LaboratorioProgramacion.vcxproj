@@ -153,6 +153,7 @@
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.cpp" />
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.cpp" />
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.cpp" />
+    <ClCompile Include="Fabrica.cpp" />
     <ClCompile Include="LaboratorioProgramacion.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +174,7 @@
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h" />
     <ClInclude Include="Clase.h" />
+    <ClInclude Include="Fabrica.h" />
     <ClInclude Include="TipoClase.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>

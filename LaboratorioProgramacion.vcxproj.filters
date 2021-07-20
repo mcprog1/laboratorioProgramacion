@@ -25,6 +25,12 @@
     <Filter Include="Archivos de encabezado\DataType">
       <UniqueIdentifier>{4cc1f109-8f8a-496e-a930-7cb67cd132fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Fabrica">
+      <UniqueIdentifier>{ce54331b-fe4b-4d13-857f-a0430409c96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Fabrica">
+      <UniqueIdentifier>{f63a917a-7fa7-49bf-85b5-2fbccfb17bd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -71,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.cpp">
       <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Fabrica.cpp">
+      <Filter>Archivos de origen\Fabrica</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="TipoClase.h">
       <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrica.h">
+      <Filter>Archivos de encabezado\Fabrica</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
