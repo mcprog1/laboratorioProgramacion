@@ -27,13 +27,32 @@ public:
 	//Constructors
 	Usuario();
 	Usuario(string, string, string, string);
+	virtual ~Usuario();
 
 };
 
 class Estudiante :public Usuario {
 private:
 	string cedula;
+public:
+	void asistirEnVivo();
+	void reproducirClase();
 
+	//setters
+	void setCedula(string);
+
+	//getters
+	string getNombre();
+};
+
+class Docente :public Usuario {
+private:
+	string nombreInstituto;
 public:
 
-}
+	//setters
+	void setNombreInstituto(string);
+
+	//getters
+	string getNombreInstituto();
+};
