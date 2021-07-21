@@ -14,6 +14,7 @@ public:
 	//constructor 
 	DocenteAsignado();
 	DocenteAsignado(string,int,TipoClase);
+	virtual ~DocenteAsignado();
 
 	//SETTERS
 	void setEmailDocente(string);

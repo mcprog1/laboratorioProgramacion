@@ -4,8 +4,7 @@ using namespace std;
 #include "TipoClase.h"
 #include "ICollectible.h"
 
-class Asignatura
-{
+class Asignatura : public ICollectible {
 private:
 	int idAsignatura;
 	string nombre;
@@ -24,6 +23,8 @@ public:
 	//Constructor
 	Asignatura();
 	Asignatura(int,string,TipoClase);
+	virtual ~Asignatura();
+
 
 	void vincularDocente();//Ver que parametros enviar
 	void vincularEstudiante();//Ver que parametros enviar

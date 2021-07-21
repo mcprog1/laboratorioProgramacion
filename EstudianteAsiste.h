@@ -3,6 +3,7 @@ using namespace std;
 #include <iostream>
 #include "TipoClase.h"
 #include "TimeStamp.h"
+
 class EstudianteAsiste
 {
 private:
@@ -15,7 +16,8 @@ public:
 	//constructor
 	EstudianteAsiste();
 	EstudianteAsiste(string, int, TimeStamp,TimeStamp);
-	
+	virtual ~EstudianteAsiste();
+
 	//SETTERS
 	void setCedulaEstudiante(string);
 	void setIdClase(int);
@@ -33,8 +35,6 @@ class EnVivo : EstudianteAsiste
 private:
 
 public:
-	//constructor
-	EnVivo();
 
 	void enviarMensaje(); //Ver que parametros enviar
 	void responderMensaje(int); //Se envia el id del mensaje que va a responder
@@ -45,8 +45,5 @@ class Reproduccion : EstudianteAsiste
 private:
 
 public:
-	//Constructor
-	Reproduccion();
-
 	void verMensajes();	
 };
