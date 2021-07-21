@@ -153,6 +153,9 @@
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.cpp" />
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.cpp" />
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.cpp" />
+    <ClCompile Include="Asignatura.cpp" />
+    <ClCompile Include="DocenteAsignado.cpp" />
+    <ClCompile Include="EstudianteAsiste.cpp" />
     <ClCompile Include="LaboratorioProgramacion.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +175,14 @@
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h" />
+    <ClInclude Include="Asignatura.h" />
+    <ClInclude Include="DocenteAsignado.h" />
+    <ClInclude Include="DTAsignatura.h" />
+    <ClInclude Include="DTDocenteAsignado.h" />
+    <ClInclude Include="DTFecha.h" />
+    <ClInclude Include="EstudianteAsiste.h" />
+    <ClInclude Include="TimeStamp.h" />
+    <ClInclude Include="TipoClase.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

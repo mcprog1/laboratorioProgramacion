@@ -2,6 +2,7 @@
 using namespace std;
 #include <iostream>
 #include "TipoClase.h"
+#include "ICollectible.h"
 
 class Asignatura
 {

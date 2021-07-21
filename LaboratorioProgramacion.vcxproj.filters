@@ -22,6 +22,9 @@
     <Filter Include="Archivos de encabezado\Colecciones">
       <UniqueIdentifier>{a2a25d85-ce82-4c48-996a-c2feb902e5eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\DataType">
+      <UniqueIdentifier>{9e627cb5-5f6c-41fc-82e2-82062e1c40f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -68,6 +71,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.cpp">
       <Filter>Archivos de origen\Colecciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Asignatura.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="EstudianteAsiste.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DocenteAsignado.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +133,30 @@
     </ClInclude>
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h">
       <Filter>Archivos de encabezado\Colecciones</Filter>
+    </ClInclude>
+    <ClInclude Include="DTFecha.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeStamp.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Asignatura.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="EstudianteAsiste.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="DTAsignatura.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="DocenteAsignado.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="DTDocenteAsignado.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

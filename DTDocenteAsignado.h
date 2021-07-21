@@ -12,6 +12,7 @@ public:
 	//Constructores
 	DTDocenteAsignado();
 	DTDocenteAsignado(string,int,TipoClase);
+	virtual ~DTDocenteAsignado();
 
 	//GETTERS
 

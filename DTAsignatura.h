@@ -12,7 +12,7 @@ public:
 	//Constructor
 	DTAsignatura();
 	DTAsignatura(int, string, TipoClase);
-
+	virtual ~DTAsignatura();
 	//GETTERS
 
 	int getIdAsignatura();
