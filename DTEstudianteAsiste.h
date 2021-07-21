@@ -10,7 +10,6 @@ private:
 	TimeStamp horaConexion;
 	TimeStamp horaDesconexion;
 public:
-
 	//Constructores
 	DTEstudianteAsiste();
 	DTEstudianteAsiste(string,int,TimeStamp,TimeStamp);
