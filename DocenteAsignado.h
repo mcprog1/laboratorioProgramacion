@@ -2,28 +2,32 @@
 using namespace std;
 #include <iostream>
 #include "TipoClase.h"
+#include "TimeStamp.h"
 
-class Asignatura
+class DocenteAsignado
 {
 private:
+	string emailDocente;
 	int idAsignatura;
-	string nombre;
 	TipoClase tipoClase;
 public:
+	//constructor 
+	DocenteAsignado();
+	DocenteAsignado(string,int,TipoClase);
+
 	//SETTERS
+	void setEmailDocente(string);
 	void setIdAsignatura(int);
-	void setNombre(string);
 	void setTipoClase(TipoClase);
 
 	//GETTERS
+	string getEmailDocente();
 	int getIdAsignatura();
-	string getNombre();
 	TipoClase getTipoClase();
 
-	//Constructor
-	Asignatura();
-	Asignatura(int,string,TipoClase);
+	void iniciarClase(string,TimeStamp);
+	void finalizarClase();
 
-	void vincularDocente();//Ver que parametros enviar
-	void vincularEstudiante();//Ver que parametros enviar
+
 };
+
