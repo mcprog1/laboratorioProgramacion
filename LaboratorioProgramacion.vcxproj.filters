@@ -31,6 +31,9 @@
     <Filter Include="Archivos de origen\Fabrica">
       <UniqueIdentifier>{f63a917a-7fa7-49bf-85b5-2fbccfb17bd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Interface">
+      <UniqueIdentifier>{3fb342ee-0fde-483c-bf48-c93f4ddab658}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -142,6 +145,18 @@
     </ClInclude>
     <ClInclude Include="Fabrica.h">
       <Filter>Archivos de encabezado\Fabrica</Filter>
+    </ClInclude>
+    <ClInclude Include="DTClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="DTUsuario.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="IControladorUsuario.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IControladorAsigantura.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

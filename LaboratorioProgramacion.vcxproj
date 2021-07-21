@@ -174,7 +174,11 @@
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h" />
     <ClInclude Include="Clase.h" />
+    <ClInclude Include="DTClase.h" />
+    <ClInclude Include="DTUsuario.h" />
     <ClInclude Include="Fabrica.h" />
+    <ClInclude Include="IControladorAsigantura.h" />
+    <ClInclude Include="IControladorUsuario.h" />
     <ClInclude Include="TipoClase.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
