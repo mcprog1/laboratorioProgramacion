@@ -1,8 +1,9 @@
 #pragma once
 using namespace std;
 #include <iostream>
+#include "ICollectible.h"
 
-class DTUsuario {
+class DTUsuario: public ICollectible {
 private:
 	string nombre;
 	string email;			//IDENTIFICA AL USUARIO

@@ -3,8 +3,9 @@ using namespace std;
 #include <iostream>
 #include "TipoClase.h"
 #include "IDictionary.h"
+#include "ICollectible.h"
 
-class DTClase {
+class DTClase: public ICollectible {
 private:
 	int idClase;
 	TipoClase tipoClase;

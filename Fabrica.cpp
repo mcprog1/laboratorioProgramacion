@@ -1,16 +1,19 @@
 #include "Fabrica.h"
 #include<iostream>
 #include<string>
+#include "IControladorUsuario.h"
+#include "ControladorUsuario.h"
+
 using namespace std;
 Fabrica* Fabrica::instance = NULL;
 
 IControladorUsuario* Fabrica::getIControladorUsuario() {
-    ControladorG* cont;
+    ControladorUsuario* cont;
     return cont->getInstance();
 }
 
 IControladorAsignatura* Fabrica::getIControladorAsignatura() {
-    ControladorM* cont;
+    ControladorAsignatura* cont;
     return cont->getInstance();
 }
 

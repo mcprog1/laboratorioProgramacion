@@ -34,6 +34,9 @@
     <Filter Include="Archivos de encabezado\Interface">
       <UniqueIdentifier>{3fb342ee-0fde-483c-bf48-c93f4ddab658}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\Controladores">
+      <UniqueIdentifier>{4b976bfa-ae34-4141-837d-d088f6663754}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -157,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="IControladorAsigantura.h">
       <Filter>Archivos de encabezado\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ControladorUsuario.h">
+      <Filter>Archivos de encabezado\Controladores</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
