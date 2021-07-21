@@ -25,6 +25,7 @@ public:
 class DTEstudiante :public DTUsuario {
 private:
 	string cedula;
+	IDictionary* asignaturas;
 public:
 	//constructors
 	DTEstudiante();
@@ -32,7 +33,8 @@ public:
 	virtual ~DTEstudiante();
 
 	//getters
-	string getNombre();
+	string getCedula();
+	IDictionary* getAsignaturas();
 
 	//methods
 	void asistirEnVivo();

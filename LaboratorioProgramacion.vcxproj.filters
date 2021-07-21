@@ -37,6 +37,12 @@
     <Filter Include="Archivos de encabezado\Controladores">
       <UniqueIdentifier>{4b976bfa-ae34-4141-837d-d088f6663754}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Clases">
+      <UniqueIdentifier>{9be6e045-bdd3-4040-86f4-73145caa2c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\DataType">
+      <UniqueIdentifier>{ff6c746d-fe69-41af-b230-94bcf197fd90}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -86,6 +92,18 @@
     </ClCompile>
     <ClCompile Include="Fabrica.cpp">
       <Filter>Archivos de origen\Fabrica</Filter>
+    </ClCompile>
+    <ClCompile Include="Clase.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="DTClase.cpp">
+      <Filter>Archivos de origen\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="DTUsuario.cpp">
+      <Filter>Archivos de origen\DataType</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

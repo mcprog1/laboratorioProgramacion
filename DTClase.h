@@ -8,6 +8,7 @@ using namespace std;
 class DTClase: public ICollectible {
 private:
 	int idClase;
+	string nombre;
 	TipoClase tipoClase;
 	string url;
 	TimeStamp inicioClase;
@@ -15,11 +16,12 @@ private:
 public:
 	//constructors
 	DTClase();
-	DTClase(int, TipoClase, string, TimeStamp, TimeStamp);
+	DTClase(int, string, TipoClase, string, TimeStamp, TimeStamp);
 	~DTClase();
 
 	//getters
 	int getIdClase();
+	string getNombre();
 	TipoClase getTipoClase();
 	string getUrl();
 	TimeStamp getInicioClase();
@@ -28,12 +30,11 @@ public:
 
 class DTTeorico :public DTClase {
 private:
-	int cantidadAsistentes;
-
+	int cantAsistentes;
 public:
 	//constructors
 	DTTeorico();
-	DTTeorico(int, TipoClase, string, TimeStamp, TimeStamp, int);
+	DTTeorico(int, string, TipoClase, string, TimeStamp, TimeStamp, int);
 	~DTTeorico();
 
 	//getters
@@ -45,7 +46,7 @@ private:
 
 public:
 	DTPractico();
-	DTPractico(int, TipoClase, string, TimeStamp, TimeStamp);
+	DTPractico(int, string, TipoClase, string, TimeStamp, TimeStamp);
 	~DTPractico();
 };
 
@@ -55,7 +56,7 @@ private:
 public:
 	//constructors
 	DTMonitoreo();
-	DTMonitoreo(int, TipoClase, string, TimeStamp, IDictionary&);
+	DTMonitoreo(int, string, TipoClase, string, TimeStamp, TimeStamp);
 	~DTMonitoreo();
 
 	//getters

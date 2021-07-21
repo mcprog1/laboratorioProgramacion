@@ -8,6 +8,7 @@ using namespace std;
 class Clase: public ICollectible{
 private:
 	int idClase;
+	string nombre;
 	TipoClase tipoClase;
 	string url;
 	TimeStamp inicioClase;
@@ -15,11 +16,12 @@ private:
 public:
 	//constructors
 	Clase();
-	Clase(int, TipoClase, string, TimeStamp, TimeStamp);
+	Clase(int, string, TipoClase, string, TimeStamp, TimeStamp);
 	~Clase();
 
 	//setters
 	void setIdClase(int);
+	void setNombre(string);
 	void setTipoClase(TipoClase);
 	void setUrl(string url);
 	void setInicioClase(TimeStamp);
@@ -27,6 +29,7 @@ public:
 
 	//getters
 	int getIdClase();
+	string getNombre();
 	TipoClase getTipoClase();
 	string getUrl();
 	TimeStamp getInicioClase();
@@ -35,14 +38,14 @@ public:
 
 class Teorico :public Clase {
 private:
-	int cantidadAsistentes;
+	int cantAsistentes;
 	
 public:
 	Teorico();
-	Teorico(int, TipoClase, string, TimeStamp, TimeStamp, int);
+	Teorico(int, string, TipoClase, string, TimeStamp, TimeStamp, int);
 	~Teorico();
 	//setters
-	void setCantidadAsistentes();
+	void setCantidadAsistentes(int);
 
 	//getters
 	int getCantidadAsistentes();
@@ -53,7 +56,7 @@ private:
 
 public:
 	Practico();
-	Practico(int, TipoClase, string, TimeStamp, TimeStamp);
+	Practico(int, string, TipoClase, string, TimeStamp, TimeStamp);
 	~Practico();
 };
 
@@ -62,11 +65,11 @@ private:
 	IDictionary* estudiantesHabilitados;
 public:
 	Monitoreo();
-	Monitoreo(int, TipoClase, string, TimeStamp, IDictionary&);
+	Monitoreo(int, string, TipoClase, string, TimeStamp, TimeStamp);
 	~Monitoreo();
 
 	//setters
-	void setEsdudianteHabilitado();
+	void setEsdudianteHabilitado(Estudiante* estudiante);
 
 	//getters
 	IDictionary* getEstudianteHabilitado();

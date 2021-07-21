@@ -2,6 +2,9 @@
 using namespace std;
 #include <iostream>
 #include "ICollectible.h"
+#include "IDictionary.h"
+
+
 class Usuario: public ICollectible {
 private:
 	string nombre;
@@ -9,9 +12,11 @@ private:
 	string imagenPerfil;
 	string clave;
 public:
-	void iniciarSesion(string email,string clave);
-	void cerrarSesion();
-
+	//Constructors
+	Usuario();
+	Usuario(string nombre, string email, string imagenPerfil, string clave);
+	virtual ~Usuario();
+	
 	//setters
 	void setNombre(string nombre);
 	void setEmail(string email);
@@ -24,34 +29,45 @@ public:
 	string getImagenPerfil();
 	string getClave();
 
-	//Constructors
-	Usuario();
-	Usuario(string, string, string, string);
-	virtual ~Usuario();
+	//methods
+	//void iniciarSesion(string email, string clave);
+	//void cerrarSesion();
 
 };
 
 class Estudiante :public Usuario {
 private:
 	string cedula;
+	IDictionary* asignaturas;
 public:
-	void asistirEnVivo();
-	void reproducirClase();
+	Estudiante();
+	Estudiante(string nombre, string email, string imagenPerfil, string clave, string cedula);
+	~Estudiante();
 
 	//setters
-	void setCedula(string);
+	void setCedula(string cedula);
+	void setAsignatura(Asignatura* asignatura);
 
 	//getters
-	string getNombre();
+	string getCedula();
+	IDictionary* getAsignaturas();
+
+	//methods
+	void asistirEnVivo();
+	void reproducirClase();
 };
 
 class Docente :public Usuario {
 private:
 	string nombreInstituto;
 public:
+	//constructors
+	Docente();
+	Docente(string nombre, string email, string imagenPerfil, string clave, string nombreInstituto);
+	~Docente();
 
 	//setters
-	void setNombreInstituto(string);
+	void setNombreInstituto(string nombreInstituto);
 
 	//getters
 	string getNombreInstituto();
