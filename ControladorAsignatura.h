@@ -8,7 +8,6 @@ using namespace std;
 
 class ControladorAsignatura : public IControladorAsignatura {
 private:
-	ControladorAsignatura();
 	static ControladorAsignatura* instance;
 	IDictionary* asignaturas;
 	IDictionary* docentes;
@@ -17,9 +16,10 @@ public:
 
 	//Constructor
 	virtual ~ControladorAsignatura();
-
+	ControladorAsignatura();
+	
 	//GETTERS
-	static ControladorAsignatura* getInstance();
+	ControladorAsignatura* getInstance();
 	Asignatura* getAsignatura();
 	IDictionary* getAsignaturas();
 	IDictionary* getDocentes();
