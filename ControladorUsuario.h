@@ -6,14 +6,14 @@
 
 class ControladorUsuario : public IControladorUsuario {
 private:
-    ControladorUsuario();
     Usuario* u;
     static ControladorUsuario* instance;
     IDictionary* usuarios;
-	IDictionary* docentes;
-	IDictionary* estudiantes;
+	//IDictionary* docentes;
+	//IDictionary* estudiantes;
 public:
 	//constructors
+	ControladorUsuario();
 	virtual ~ControladorUsuario();
 
 	//getters
@@ -25,8 +25,6 @@ public:
 
 	//methods
 	void crearUsuario(string nombre, string email, string imagenPerfil, string calve) = 0;
-	void inciarSesion(string email, string clave) = 0;
-	void cerrarSesion() = 0;
 	void iniciarClase(string nombreClase, TimeStamp fechaYHoraComienzo) = 0;
 	void finalizarClase() = 0;
 	IDictionary* listarDocentes() = 0;

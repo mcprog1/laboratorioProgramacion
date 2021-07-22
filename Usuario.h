@@ -30,8 +30,6 @@ public:
 	string getClave();
 
 	//methods
-	//void iniciarSesion(string email, string clave);
-	//void cerrarSesion();
 
 };
 
@@ -53,8 +51,8 @@ public:
 	IDictionary* getAsignaturas();
 
 	//methods
-	void asistirEnVivo();
-	void reproducirClase();
+	//void asistirEnVivo();
+	//void reproducirClase();
 };
 
 class Docente :public Usuario {
