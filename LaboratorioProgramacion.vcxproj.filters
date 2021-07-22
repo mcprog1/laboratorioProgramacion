@@ -43,6 +43,9 @@
     <Filter Include="Archivos de origen\DataType">
       <UniqueIdentifier>{ff6c746d-fe69-41af-b230-94bcf197fd90}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Controladores">
+      <UniqueIdentifier>{daff84c4-bcd6-44b7-9a88-7e1ab01f4987}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -104,6 +107,9 @@
     </ClCompile>
     <ClCompile Include="DTUsuario.cpp">
       <Filter>Archivos de origen\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="ControladorUsuario.cpp">
+      <Filter>Archivos de origen\Controladores</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
