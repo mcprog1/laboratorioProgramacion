@@ -139,39 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollectible.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IDictionary.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IKey.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyInt.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyString.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Lista.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaDicc.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaIterator.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIterator.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorKey.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorObj.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.cpp" />
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.cpp" />
+    <ClCompile Include="Asignatura.cpp" />
+    <ClCompile Include="ControladorAsignatura.cpp" />
+    <ClCompile Include="DocenteAsignado.cpp" />
+    <ClCompile Include="EstudianteAsiste.cpp" />
     <ClCompile Include="LaboratorioProgramacion.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollectible.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollection.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IDictionary.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IIterator.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IKey.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyInt.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyString.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Lista.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaDicc.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaIterator.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIterator.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorKey.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorObj.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.h" />
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h" />
+    <ClInclude Include="Asignatura.h" />
+    <ClInclude Include="ControladorAsignatura.h" />
+    <ClInclude Include="DocenteAsignado.h" />
+    <ClInclude Include="DTAsignatura.h" />
+    <ClInclude Include="DTDocenteAsignado.h" />
+    <ClInclude Include="DTEstudianteAsiste.h" />
+    <ClInclude Include="DTFecha.h" />
+    <ClInclude Include="EstudianteAsiste.h" />
+    <ClInclude Include="IControladorAsignatura.h" />
+    <ClInclude Include="TimeStamp.h" />
+    <ClInclude Include="TipoClase.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

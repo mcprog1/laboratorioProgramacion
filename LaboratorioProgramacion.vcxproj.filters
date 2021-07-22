@@ -16,111 +16,63 @@
     <Filter Include="Archivos de encabezado\Clases">
       <UniqueIdentifier>{112eb468-7ecf-40fc-9662-d6eefcdde980}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\Colecciones">
-      <UniqueIdentifier>{0bd66c76-7ee7-4837-9542-2eebf53b1dc3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\Colecciones">
-      <UniqueIdentifier>{a2a25d85-ce82-4c48-996a-c2feb902e5eb}</UniqueIdentifier>
+    <Filter Include="Archivos de encabezado\DataType">
+      <UniqueIdentifier>{9e627cb5-5f6c-41fc-82e2-82062e1c40f4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollectible.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
+    <ClCompile Include="Asignatura.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IDictionary.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
+    <ClCompile Include="EstudianteAsiste.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IKey.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
+    <ClCompile Include="DocenteAsignado.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyInt.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyString.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Lista.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaDicc.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaIterator.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIterator.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorKey.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorObj.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
+    <ClCompile Include="ControladorAsignatura.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Usuario.h">
       <Filter>Archivos de encabezado\Clases</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollectible.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="DTFecha.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollection.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="TimeStamp.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IDictionary.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="TipoClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IIterator.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="Asignatura.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IKey.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="DTAsignatura.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyInt.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="DocenteAsignado.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\KeyString.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="DTDocenteAsignado.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Lista.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="DTEstudianteAsiste.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaDicc.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="EstudianteAsiste.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListaIterator.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="ControladorAsignatura.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIterator.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorKey.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ListDiccIteratorObj.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Nodo.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\NodoDicc.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\Par.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="IControladorAsignatura.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
