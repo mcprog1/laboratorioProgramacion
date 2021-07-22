@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> juanpa
 #ifndef KEYINT_H
 #define KEYINT_H
 
@@ -16,6 +19,7 @@ public:
     ~KeyInt();
 };
 
+<<<<<<< HEAD
 =======
 #ifndef KEYINT_H
 #define KEYINT_H
@@ -35,4 +39,6 @@ public:
 };
 
 >>>>>>> 94cc2ede6ff442c864d261b9c19884aa28752deb
+=======
+>>>>>>> juanpa
 #endif

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> juanpa
 #include "KeyInt.h"
 
 KeyInt::KeyInt(int n) {
@@ -15,6 +18,7 @@ bool KeyInt::equals(IKey* clave) {
 }
 
 KeyInt::~KeyInt() {
+<<<<<<< HEAD
 =======
 #include "KeyInt.h"
 
@@ -33,4 +37,6 @@ bool KeyInt::equals(IKey* clave) {
 
 KeyInt::~KeyInt() {
 >>>>>>> 94cc2ede6ff442c864d261b9c19884aa28752deb
+=======
+>>>>>>> juanpa
 }

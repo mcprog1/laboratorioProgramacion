@@ -19,6 +19,30 @@
     <Filter Include="Archivos de encabezado\DataType">
       <UniqueIdentifier>{9e627cb5-5f6c-41fc-82e2-82062e1c40f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de encabezado\DataType">
+      <UniqueIdentifier>{4cc1f109-8f8a-496e-a930-7cb67cd132fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Fabrica">
+      <UniqueIdentifier>{ce54331b-fe4b-4d13-857f-a0430409c96d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Fabrica">
+      <UniqueIdentifier>{f63a917a-7fa7-49bf-85b5-2fbccfb17bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Interface">
+      <UniqueIdentifier>{3fb342ee-0fde-483c-bf48-c93f4ddab658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Controladores">
+      <UniqueIdentifier>{4b976bfa-ae34-4141-837d-d088f6663754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Clases">
+      <UniqueIdentifier>{9be6e045-bdd3-4040-86f4-73145caa2c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\DataType">
+      <UniqueIdentifier>{ff6c746d-fe69-41af-b230-94bcf197fd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Controladores">
+      <UniqueIdentifier>{daff84c4-bcd6-44b7-9a88-7e1ab01f4987}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LaboratorioProgramacion.cpp">
@@ -35,6 +59,24 @@
     </ClCompile>
     <ClCompile Include="ControladorAsignatura.cpp">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Fabrica.cpp">
+      <Filter>Archivos de origen\Fabrica</Filter>
+    </ClCompile>
+    <ClCompile Include="Clase.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="DTClase.cpp">
+      <Filter>Archivos de origen\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="DTUsuario.cpp">
+      <Filter>Archivos de origen\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="ControladorUsuario.cpp">
+      <Filter>Archivos de origen\Controladores</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +115,30 @@
     </ClInclude>
     <ClInclude Include="IControladorAsignatura.h">
       <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Clase.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrica.h">
+      <Filter>Archivos de encabezado\Fabrica</Filter>
+    </ClInclude>
+    <ClInclude Include="DTClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="DTUsuario.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="IControladorUsuario.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IControladorAsigantura.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ControladorUsuario.h">
+      <Filter>Archivos de encabezado\Controladores</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
