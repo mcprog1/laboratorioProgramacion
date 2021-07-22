@@ -139,6 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClCompile Include="Asignatura.cpp" />
+    <ClCompile Include="ControladorAsignatura.cpp" />
+    <ClCompile Include="DocenteAsignado.cpp" />
+    <ClCompile Include="EstudianteAsiste.cpp" />
+=======
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollectible.cpp" />
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IDictionary.cpp" />
     <ClCompile Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IKey.cpp" />
@@ -158,10 +164,23 @@
     <ClCompile Include="DTClase.cpp" />
     <ClCompile Include="DTUsuario.cpp" />
     <ClCompile Include="Fabrica.cpp" />
+>>>>>>> juanpa
     <ClCompile Include="LaboratorioProgramacion.cpp" />
     <ClCompile Include="Usuario.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClInclude Include="Asignatura.h" />
+    <ClInclude Include="ControladorAsignatura.h" />
+    <ClInclude Include="DocenteAsignado.h" />
+    <ClInclude Include="DTAsignatura.h" />
+    <ClInclude Include="DTDocenteAsignado.h" />
+    <ClInclude Include="DTEstudianteAsiste.h" />
+    <ClInclude Include="DTFecha.h" />
+    <ClInclude Include="EstudianteAsiste.h" />
+    <ClInclude Include="IControladorAsignatura.h" />
+    <ClInclude Include="TimeStamp.h" />
+=======
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollectible.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\ICollection.h" />
     <ClInclude Include="..\..\Implementacion\ColeccionesG\ColeccionesG\IDictionary.h" />
@@ -185,6 +204,7 @@
     <ClInclude Include="Fabrica.h" />
     <ClInclude Include="IControladorAsigantura.h" />
     <ClInclude Include="IControladorUsuario.h" />
+>>>>>>> juanpa
     <ClInclude Include="TipoClase.h" />
     <ClInclude Include="Usuario.h" />
   </ItemGroup>
