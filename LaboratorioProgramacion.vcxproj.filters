@@ -54,23 +54,26 @@
     <ClCompile Include="LaboratorioProgramacion.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Usuario.cpp">
-      <Filter>Archivos de origen\Clases</Filter>
+    <ClCompile Include="Asignatura.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="EstudianteAsiste.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DocenteAsignado.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ControladorAsignatura.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="Asignatura.cpp">
       <Filter>Archivos de origen\Clases</Filter>
     </ClCompile>
-    <ClCompile Include="DocenteAsignado.cpp">
+    <ClCompile Include="Clase.cpp">
       <Filter>Archivos de origen\Clases</Filter>
     </ClCompile>
-    <ClCompile Include="EstudianteAsiste.cpp">
+    <ClCompile Include="Usuario.cpp">
       <Filter>Archivos de origen\Clases</Filter>
-    </ClCompile>
-    <ClCompile Include="ControladorAsignatura.cpp">
-      <Filter>Archivos de origen\Controladores</Filter>
-    </ClCompile>
-    <ClCompile Include="Fabrica.cpp">
-      <Filter>Archivos de origen\Fabrica</Filter>
     </ClCompile>
     <ClCompile Include="DTClase.cpp">
       <Filter>Archivos de origen\DataType</Filter>
@@ -78,53 +81,8 @@
     <ClCompile Include="DTUsuario.cpp">
       <Filter>Archivos de origen\DataType</Filter>
     </ClCompile>
-    <ClCompile Include="Clase.cpp">
-      <Filter>Archivos de origen\Clases</Filter>
-    </ClCompile>
     <ClCompile Include="ControladorUsuario.cpp">
       <Filter>Archivos de origen\Controladores</Filter>
-    </ClCompile>
-    <ClCompile Include="ICollectible.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="IDictionary.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="IKey.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="KeyInt.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="KeyString.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="Lista.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaDicc.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="ListaIterator.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="ListDiccIterator.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="ListDiccIteratorKey.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="ListDiccIteratorObj.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="Nodo.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="NodoDicc.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
-    </ClCompile>
-    <ClCompile Include="Par.cpp">
-      <Filter>Archivos de origen\Colecciones</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -165,16 +123,16 @@
       <Filter>Archivos de encabezado\Controladores</Filter>
     </ClInclude>
     <ClInclude Include="IControladorAsignatura.h">
-      <Filter>Archivos de encabezado\Interface</Filter>
-    </ClInclude>
-    <ClInclude Include="Fabrica.h">
-      <Filter>Archivos de encabezado\Fabrica</Filter>
-    </ClInclude>
-    <ClInclude Include="Clase.h">
-      <Filter>Archivos de encabezado\Clases</Filter>
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="ControladorUsuario.h">
       <Filter>Archivos de encabezado\Controladores</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoClase.h">
+      <Filter>Archivos de encabezado\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Fabrica.h">
+      <Filter>Archivos de encabezado\Fabrica</Filter>
     </ClInclude>
     <ClInclude Include="DTClase.h">
       <Filter>Archivos de encabezado\DataType</Filter>
@@ -182,56 +140,17 @@
     <ClInclude Include="DTUsuario.h">
       <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
+    <ClInclude Include="Fabrica.h">
+      <Filter>Archivos de encabezado\Fabrica</Filter>
+    </ClInclude>
     <ClInclude Include="IControladorUsuario.h">
       <Filter>Archivos de encabezado\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="ICollectible.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="IControladorAsigantura.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="ICollection.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="IDictionary.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="IIterator.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="IKey.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="KeyInt.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="KeyString.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="Lista.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="ListaDicc.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="ListaIterator.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="ListDiccIterator.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="ListDiccIteratorKey.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="ListDiccIteratorObj.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="Nodo.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="NodoDicc.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
-    </ClInclude>
-    <ClInclude Include="Par.h">
-      <Filter>Archivos de encabezado\Colecciones</Filter>
+    <ClInclude Include="ControladorUsuario.h">
+      <Filter>Archivos de encabezado\Controladores</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
