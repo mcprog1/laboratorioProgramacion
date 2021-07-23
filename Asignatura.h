@@ -7,7 +7,12 @@ using namespace std;
 class Asignatura : public ICollectible {
 private:
 	int idAsignatura;
+<<<<<<< HEAD
 	string nombre; 
+=======
+	string nombre;
+	//Estgo esa udfaisnd
+>>>>>>> nico
 	TipoClase tipoClase;
 public:
 	//SETTERS
