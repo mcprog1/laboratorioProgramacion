@@ -4,6 +4,7 @@ using namespace std;
 #include "TipoClase.h"
 #include "IDictionary.h"
 #include "ICollectible.h"
+#include "TimeStamp.h"
 
 class Clase: public ICollectible{
 private:

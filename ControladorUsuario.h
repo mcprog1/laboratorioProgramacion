@@ -2,6 +2,7 @@
 #include <iostream>
 #include "IDictionary.h"
 #include "IControladorUsuario.h"
+#include "TimeStamp.h"
 #include "Usuario.h"
 
 class ControladorUsuario : public IControladorUsuario {
