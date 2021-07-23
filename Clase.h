@@ -13,6 +13,8 @@ private:
 	string url;
 	TimeStamp inicioClase;
 	TimeStamp finClase;
+	IDictionary* estudiantes;
+	IDictionary* docentes;
 public:
 	//constructors
 	Clase();
@@ -26,6 +28,8 @@ public:
 	void setUrl(string url);
 	void setInicioClase(TimeStamp);
 	void setFinClase(TimeStamp);
+	void setEstudiante();
+	void setDocente();
 
 	//getters
 	int getIdClase();
