@@ -8,6 +8,7 @@ class Asignatura : public ICollectible {
 private:
 	int idAsignatura;
 	string nombre;
+	//Estgo esa udfaisnd
 	TipoClase tipoClase;
 public:
 	//SETTERS
