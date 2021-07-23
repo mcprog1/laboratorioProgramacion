@@ -48,35 +48,35 @@
     <ClCompile Include="LaboratorioProgramacion.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Asignatura.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="EstudianteAsiste.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="DocenteAsignado.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="ControladorAsignatura.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
     </ClCompile>
     <ClCompile Include="Fabrica.cpp">
       <Filter>Archivos de origen\Fabrica</Filter>
     </ClCompile>
-    <ClCompile Include="Clase.cpp">
-      <Filter>Archivos de origen\Clases</Filter>
-    </ClCompile>
-    <ClCompile Include="Usuario.cpp">
-      <Filter>Archivos de origen\Clases</Filter>
+    <ClCompile Include="DTUsuario.cpp">
+      <Filter>Archivos de origen\DataType</Filter>
     </ClCompile>
     <ClCompile Include="DTClase.cpp">
       <Filter>Archivos de origen\DataType</Filter>
     </ClCompile>
-    <ClCompile Include="DTUsuario.cpp">
-      <Filter>Archivos de origen\DataType</Filter>
-    </ClCompile>
     <ClCompile Include="ControladorUsuario.cpp">
       <Filter>Archivos de origen\Controladores</Filter>
+    </ClCompile>
+    <ClCompile Include="ControladorAsignatura.cpp">
+      <Filter>Archivos de origen\Controladores</Filter>
+    </ClCompile>
+    <ClCompile Include="EstudianteAsiste.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="Asignatura.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="Clase.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="DocenteAsignado.cpp">
+      <Filter>Archivos de origen\Clases</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -110,20 +110,17 @@
     <ClInclude Include="EstudianteAsiste.h">
       <Filter>Archivos de encabezado\Clases</Filter>
     </ClInclude>
-    <ClInclude Include="ControladorAsignatura.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="IControladorAsignatura.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Clase.h">
-      <Filter>Archivos de encabezado\Clases</Filter>
-    </ClInclude>
     <ClInclude Include="TipoClase.h">
       <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
-    <ClInclude Include="Fabrica.h">
-      <Filter>Archivos de encabezado\Fabrica</Filter>
+    <ClInclude Include="ControladorAsignatura.h">
+      <Filter>Archivos de encabezado\Controladores</Filter>
+    </ClInclude>
+    <ClInclude Include="IControladorAsignatura.h">
+      <Filter>Archivos de encabezado\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ControladorUsuario.h">
+      <Filter>Archivos de encabezado\Controladores</Filter>
     </ClInclude>
     <ClInclude Include="DTClase.h">
       <Filter>Archivos de encabezado\DataType</Filter>
@@ -131,14 +128,14 @@
     <ClInclude Include="DTUsuario.h">
       <Filter>Archivos de encabezado\DataType</Filter>
     </ClInclude>
+    <ClInclude Include="Fabrica.h">
+      <Filter>Archivos de encabezado\Fabrica</Filter>
+    </ClInclude>
     <ClInclude Include="IControladorUsuario.h">
       <Filter>Archivos de encabezado\Interface</Filter>
     </ClInclude>
-    <ClInclude Include="IControladorAsigantura.h">
-      <Filter>Archivos de encabezado\Interface</Filter>
-    </ClInclude>
-    <ClInclude Include="ControladorUsuario.h">
-      <Filter>Archivos de encabezado\Controladores</Filter>
+    <ClInclude Include="Clase.h">
+      <Filter>Archivos de encabezado\Clases</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

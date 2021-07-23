@@ -35,6 +35,7 @@ class EnVivo : EstudianteAsiste
 private:
 
 public:
+	EnVivo();
 
 	void enviarMensaje(); //Ver que parametros enviar
 	void responderMensaje(int); //Se envia el id del mensaje que va a responder
@@ -45,5 +46,6 @@ class Reproduccion : EstudianteAsiste
 private:
 
 public:
+	Reproduccion();
 	void verMensajes();	
 };
