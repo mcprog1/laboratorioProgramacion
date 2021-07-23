@@ -7,7 +7,7 @@ using namespace std;
 class Asignatura : public ICollectible {
 private:
 	int idAsignatura;
-	string nombre;
+	string nombre; 
 	TipoClase tipoClase;
 public:
 	//SETTERS
