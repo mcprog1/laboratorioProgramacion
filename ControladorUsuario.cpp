@@ -8,7 +8,7 @@ using namespace std;
 ControladorUsuario* ControladorUsuario::instance = NULL;
 
 //===========================CONTROLADORUSUARIO===========================\\
-
+//MOD
 //constructors
 ControladorUsuario::ControladorUsuario() {}
 
